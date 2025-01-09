@@ -93,7 +93,7 @@ def main():
     )
 
     # Inputs
-    input_text = st.text_area('Enter your natural language query...')
+    input_text = st.text_area('Enter your natural language query...', placeholder="e.g., Get total sales for this month")
     schema_name = st.text_input('Enter the schema name (optional):', placeholder="e.g., public")
     table_name = st.text_input('Enter the table name:', placeholder="e.g., users")
 
